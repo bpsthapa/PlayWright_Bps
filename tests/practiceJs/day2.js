@@ -1,20 +1,9 @@
-exports.day2 = class day2 {
-
-  constructor() {
-
-  }
-
-function add(x, y){
-    let sum=x+y
-    return sum;
+function add(){
+    let a=10;
+    let b=15;
+    let sum=a+b;
+    console.log("The sume of a and b is", sum)
 }
 
-function multiply(x, y){
-    let sum=x*y
-    return sum;
-}
-
-function sub(x, y){
-    let sum=x-y
-    return sum;
-}
+add();
+add();

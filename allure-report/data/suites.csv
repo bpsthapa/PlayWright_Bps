@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","13626","Test of 1st section","chromium","Sat Jul 26 15:30:16 NPT 2025","passed","Sat Jul 26 15:30:30 NPT 2025","testcase","BecomeTestExpert/webAuto.spec.js","",""
+"","2091","get started link","chromium","Sat Jul 26 15:30:18 NPT 2025","passed","Sat Jul 26 15:30:20 NPT 2025","","example.spec.js","",""
+"","9458","testcase","chromium","Sat Jul 26 15:42:00 NPT 2025","passed","Sat Jul 26 15:42:09 NPT 2025","","BecomeTestExpert/test.spec.js","",""
+"","1503","has title","chromium","Sat Jul 26 15:30:16 NPT 2025","passed","Sat Jul 26 15:30:17 NPT 2025","","example.spec.js","",""
+"","8841","Google Search","chromium","Sat Jul 26 15:30:16 NPT 2025","passed","Sat Jul 26 15:30:25 NPT 2025","","WebAutomation/main.spec.js","",""
+"","2067","Test on second section","chromium","Sat Jul 26 15:30:30 NPT 2025","passed","Sat Jul 26 15:30:32 NPT 2025","testcase","BecomeTestExpert/webAuto.spec.js","",""
