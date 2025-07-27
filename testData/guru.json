@@ -1,3 +1,6 @@
 {
-    "url2":"https://demo.guru99.com/test/delete_customer.php"
+    "url2":"https://demo.guru99.com/test/delete_customer.php",
+    "url":"https://commitquality.com/practice",
+
+    "expectedErrorMessage":"Please select a file to upload."
 }

@@ -1,0 +1,6 @@
+Opening Url
+Checking if the product Iphone 16 pro max is being listed in table
+Total count is:1
+The text is:  Iphone 16 pro max
+The newly product is listed in table
+Added product

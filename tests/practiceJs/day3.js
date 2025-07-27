@@ -1,5 +1,13 @@
-let fruits = "Fruit is banana"
+let fruits = ["banana","apple","Mango"]
+console.table(fruits);
 
-let fru =fruits.split(" ");
+fruits.push("papay")
 
-console.table(fru);
+fruits.splice("banana")
+
+for(i in fruits){
+    console.log(fruits[i]);
+
+    console.log(fruits.length)
+}
+

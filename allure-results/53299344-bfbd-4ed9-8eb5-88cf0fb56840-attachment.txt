@@ -1,0 +1,9 @@
+Opening Url
+Checking if the product Iphone 16 pro max is being listed in table
+Total count is:1
+The text is:  Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 6613,
+  [Symbol(trigger_async_id_symbol)]: 6612,
+  [Symbol(kResourceStore)]: undefined
+}

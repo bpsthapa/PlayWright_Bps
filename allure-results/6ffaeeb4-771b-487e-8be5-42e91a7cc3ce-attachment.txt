@@ -1,0 +1,9 @@
+Opening Url
+Checking if the product is being listed in table
+Total count is Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 6500,
+  [Symbol(trigger_async_id_symbol)]: 6499,
+  [Symbol(kResourceStore)]: undefined
+}
+Added product

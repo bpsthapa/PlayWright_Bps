@@ -1,0 +1,3 @@
+Opening Url
+Checking if the product is being listed in table
+Total count is:1
