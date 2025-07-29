@@ -1,0 +1,46 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - link "Gmail":
+    - /url: https://mail.google.com/mail/&ogbl
+  - link "फोटोहरू खोज्नुहोस्":
+    - /url: https://www.google.com/imghp?hl=ne&ogbl
+    - text: फोटो
+  - button "Google एपहरू":
+    - img
+  - link "साइन इन":
+    - /url: https://accounts.google.com/ServiceLogin?hl=ne&passive=true&continue=https://www.google.com/&ec=futura_exp_og_so_72776762_e
+- img
+- search:
+  - img
+  - combobox "खोज्नुहोस्": Mi monitor
+  - button "खाली गर्नुहोस्":
+    - img
+  - button "आगत उपकरणहरू":
+    - img
+  - button "ध्वनिबाट खोजी गर्नुहोस्":
+    - img
+  - button "फोटोअनुसार खोज्नुहोस्":
+    - img
+  - button "Google खोजी"
+  - button "म भाग्यमानी अनुभूति गरिरहेछु"
+- text: "Google यी भाषामा उपलब्ध छ:"
+- link "English":
+  - /url: https://www.google.com/setprefs?sig=0_96bFoHiNNLKw15GNWXEJ35AoZNM%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwjo8ez0gd2OAxWrumMGHRfpOb8Q2ZgBCBU
+- contentinfo:
+  - text: नेपाल
+  - link "यस बारेमा":
+    - /url: https://about.google/?utm_source=google-NP&utm_medium=referral&utm_campaign=hp-footer&fg=1
+  - link "विज्ञापन":
+    - /url: https://www.google.com/intl/ne_np/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1
+  - link "व्यवसाय":
+    - /url: https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1
+  - link "खोज सुविधाले काम गर्ने तरिका":
+    - /url: https://google.com/search/howsearchworks/?fg=1
+  - link "गोपनीयता":
+    - /url: https://policies.google.com/privacy?hl=ne&fg=1
+  - link "सर्तहरू":
+    - /url: https://policies.google.com/terms?hl=ne&fg=1
+  - button "प्राथमिकताहरू"
+```

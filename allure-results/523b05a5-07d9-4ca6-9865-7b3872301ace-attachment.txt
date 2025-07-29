@@ -1,0 +1,5 @@
+Opening url
+clicking ok from popup
+Clicking on Sing in button
+Element is visisbale
+Shop Name

@@ -5,7 +5,7 @@ import { link } from 'fs';
 test('testcase', async ({ page }) => {
     await page.goto(data.url2);
 
-    expect(page).toHaveTitle("Delete Customer")
+    expect(page).toHaveTitle("Delete CommitQuality - Test Automation Demo")
 
     const a = await page.title();
     console.log(a);

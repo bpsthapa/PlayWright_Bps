@@ -1,0 +1,46 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - link "Products":
+    - /url: /
+  - link "Add Product":
+    - /url: /add-product
+  - link "Practice":
+    - /url: /practice
+  - link "Learn":
+    - /url: https://www.youtube.com/@commitquality
+  - link "Login":
+    - /url: /login
+- paragraph: "Note to user: This page is likely to be updated - Things may move around and extra items will be added."
+- heading "General Components" [level=2]
+- paragraph: "Click here to practice working with:"
+- list:
+  - listitem: "- Buttons"
+  - listitem: "- Radio Buttons"
+  - listitem: "- Dropdowns"
+  - listitem: "- Checkboxes"
+  - listitem: "- Links"
+- heading "Accordions" [level=2]
+- paragraph: Click here to practice working with accordions
+- heading "Popups" [level=2]
+- paragraph: Click here to practice working with random popups
+- heading "Iframes" [level=2]
+- paragraph: Click here to practice Iframes
+- heading "Apis" [level=2]
+- paragraph: Click here to practice Api requests
+- heading "Dynamic Text" [level=2]
+- paragraph: Click here to practice Dynamic Text
+- heading "File Upload" [level=2]
+- paragraph: Click here to practice Uploading files
+- heading "Drag and drop" [level=2]
+- paragraph: Click here to practice Dragging and dropping
+- heading "Contact Us Form" [level=2]
+- paragraph: Click here to practice filling out forms
+- heading "Mock Datalayer" [level=2]
+- paragraph: Click here to practice testing a mocked version of a datalayer
+- heading "File Download" [level=2]
+- paragraph: Click here to practice testing file downloading
+- heading "Time testing" [level=2]
+- paragraph: Click here to practice testing time
+```

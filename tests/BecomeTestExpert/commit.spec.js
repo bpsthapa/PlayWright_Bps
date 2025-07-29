@@ -4,6 +4,7 @@ import data from '../../testData/guru.json';
 test.beforeEach(async ({ page }) => {
     console.log("Opening Url")
     await page.goto(data.url);
+    expect(page).toHaveTitle("Delete CommitQuality - Test Automation Demo")
     await page.getByRole('link', { name: 'Practice' }).click();
 });
 
@@ -67,8 +68,24 @@ test("Add prodcut without price", async ({page}) => {
     await page.waitForTimeout(5000)
 });
 
-test('console check', async ({ page }) => {
-    console.log("Jello")
+test.only('iframe Handle', async ({ page }) => {
+    console.log("Handling iFrame")
+    await page.getByRole('heading', { name: 'Iframes' }).click()
+    
+    let x = page.locator("iframe[title='Products']");
+    await expect(x, "this is not visible").toBeVisible();
+    
+    const iframe = page.frameLocator("iframe[title='Products']");
+    await iframe.locator("input[placeholder='Filter by product name']").fill("BipinThapa");
+    await page.waitForTimeout(1000)
+    await iframe.locator("input[placeholder='Filter by product name']").fill("");
+    await page.waitForTimeout(1000)
+    await iframe.locator("input[placeholder='Filter by product name']").fill("BipinThapa");
+    await iframe.locator("(//button[@class='filter-button'])[1]").click();
+    await page.waitForTimeout(5000)
+    await iframe.getByRole("button",{name:"Filter"}).click;
+    await iframe.getByRole("button",{name:"Resets"}).click;
+    await page.waitForTimeout(5000)
 });
 
 

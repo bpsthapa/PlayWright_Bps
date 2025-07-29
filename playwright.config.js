@@ -7,7 +7,7 @@ import { defineConfig, devices } from '@playwright/test';
 export default defineConfig({
   testDir: './tests',
   //changing the default timeout which was 30
-  timeout: 50*1000,
+  timeout: 20*1000,
   //this is for assertion timeout only
     expect: { 
       timeout: 40*1000,
