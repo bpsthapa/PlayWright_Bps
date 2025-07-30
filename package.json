@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-
+    "regresssion": "npx playwright test",
+    "smoke": "npx playwright test --grep @smoke"
   },
   "keywords": [],
   "author": "",
